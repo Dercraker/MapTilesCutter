@@ -11,7 +11,7 @@ func CreateCanvas(zoom, tileSize int, color color.Color) image.Image {
 	canvas := image.NewRGBA(image.Rect(0, 0, width, width))
 
 	for x := 0; x < width; x++ {
-		for y := 0; y < tileSize; y++ {
+		for y := 0; y < width; y++ {
 			canvas.Set(x, y, color)
 		}
 	}

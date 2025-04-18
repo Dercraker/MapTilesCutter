@@ -61,7 +61,7 @@ func ProcessFile(file, outDir *string, concurency *int) error {
 		return err
 	}
 
-	fmt.Println("File  has been cutted")
+	fmt.Println("File has been cutted")
 	return nil
 }
 
